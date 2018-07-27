@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/i_home"
+        android:checked="true"
+        android:icon="@mipmap/home_ic"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/i_community"
+        android:icon="@mipmap/community"
+        android:title="@string/community" />
+    <!--must set the item title to empty-->
+    <item
+        android:id="@+id/i_empty"
+        android:title="" />
+    <item
+        android:id="@+id/i_pile_share"
+        android:icon="@mipmap/zhuangxiang"
+        android:title="@string/pile_share" />
+    <item
+        android:id="@+id/i_my"
+        android:icon="@mipmap/my"
+        android:title="@string/my" />
+</menu>
